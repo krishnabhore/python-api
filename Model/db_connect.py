@@ -4,7 +4,7 @@ import json
 class database:
     
     def __init__(self):
-        self.connect=mysql.connector.connect(host="localhost",port="3312",username="root",password="mysqltest",database="classicmodels")
+        self.connect=mysql.connector.connect(host="43.204.144.210",port="3306",username="root",password="mysqltest",database="data")
         self.connect.autocommit=True
         print(self.connect)
         print("connection successful")  
